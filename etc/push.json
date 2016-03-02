@@ -1,0 +1,12 @@
+{
+    "address": "ipc:///tmp/nanosphere-push.sock",
+    "logging": "info",
+    "logging.format": "%(asctime)-15s - %(levelname)s - %(module)s - %(message)s",
+
+    "ios": {
+        "use_sandbox": true,
+        "cert_file": "/path/to/your/certfile",
+        "key_file": "/path/to/your/keyfile"
+
+    }
+}

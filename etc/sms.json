@@ -1,0 +1,11 @@
+{
+    "address": "ipc:///tmp/nanosphere-sms.sock",
+    "logging": "info",
+    "logging.format": "%(asctime)-15s - %(levelname)s - %(module)s - %(message)s",
+
+    "twilio": {
+        "account_sid": "",
+        "auth_token": "",
+        "number": ""
+    }
+}
